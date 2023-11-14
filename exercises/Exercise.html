@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device--width">
+   <title>Module 7 Example</title>
+</head> 
+<body>
+    <form autocompleted="on">
+    <input id="first-name" type="text" placeholder="Enter your first-name" style="display: block;">
+    <br>
+    <input>
+    </form> 
+    <form>
+        <p>What programming language do you want to learn next?</p>
+        <input type="radio" id="js" name="lang" value="JavaScript"><label for="js">JavaScript</label>
+        <br>
+        <input type="radio"  id="java" name="lang" value="Java"><label for="java">Java</label>
+        <br>
+        <input type="radio" id="c" name="lang" value="C"><label for="c">C</label>
+        <br>
+        <button type="button"></button>
+    </form>
+    <form>
+        <p>What programming language do you want to learn next?</p>
+        <input type="checkbox" id="c++" name="language" value="C++"><label for="c++">C++</label>
+        <br>
+        <input type="checkbox" id="python" name="language" value="python"><label for="python">Python</label>
+        <br>
+        <input type="checkbox" id="kotlin" name="language" value="kotlin"><label for="kotlin">Kotlin(The Best Language)</label>
+        <br>
+        <input type="submit" value="Submit">
+        <button type="submit">Click Me!</button>
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="dropdown">Choose an Option!</label>
+        <select id="dropdown" name="dropdown"> 
+          <option disabled="disable">Select an Option:</option>
+          <option value="table">Table</option>
+          <option value="chair">Chair</option>
+          <option value="Bed">Bed</option>
+         </select>
+    </form>
+    <form>
+        <textarea id="review" name="review" placeholder="Leave a review!" cols="50" rows="5">Leave a review!</textarea>
+    </form>
+    <form>
+        <fieldset>
+          <input type="text" placeholder="First Name">
+          <br>
+          <input type="text" placeholder="Last Name"> 
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <label for="school-dropdown">Select a School</label>
+        <br>
+        <input id="schools-dropdown" name="schools" list="schools">
+        <datalist id="schools">
+            <option value="Elementary">Elementary</option>
+            <option value="Middle">Middle</option>
+            <option value="High">High</option>
+        </datalist>
+    </form>
+    <br>
+    <form>
+        <input type="text" placeholder="Enter your username" value="HannieRod">
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <imput type="reset">
+    </form>
+    <form>
+        <label for="color">Pick a Color!</label>
+        <input id="color" type="color">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="date">What is your birthday?</label>
+        <input type="date" id="date">
+        <br>
+        <label for="appointment">Select an appointment time:</label>
+        <br>
+        <input id="appointment" type="datetime-local">
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="filepicker">Select a file</label>
+        <input type="file" id="filepicker">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="num">Pick a number</label>
+        <br>
+        <input type="number" id="num" min="0" max="20" step="5">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="phone-number">Enter your phone number</label>
+        <br>
+        <input type="volume" id="phone-number">
+        <br>
+        <input type="range" id="volume">
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="url" placeholder="Enter a url">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <meter min="0" max="100" value="100" low="25" high="75" optimum="75"></meter>
+</body>
+</html>
